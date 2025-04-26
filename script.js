@@ -18,7 +18,7 @@ controls.enableDamping = true;
 controls.enableZoom = true;
 
 const loader = new GLTFLoader();
-loader.load('reeliz.glb', function (gltf) {
+loader.load('./reeliz.glb', function (gltf) {
     scene.add(gltf.scene);
 }, undefined, function (error) {
     console.error(error);
